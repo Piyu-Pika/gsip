@@ -55,7 +55,6 @@ class _AiTutorState extends State<AiTutor> {
           },
           color: Colors.blue,
           elevation: 2,
-          hoverColor: Colors.blueGrey,
           
           child :const Text('serach'))
           

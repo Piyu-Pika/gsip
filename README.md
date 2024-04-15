@@ -49,13 +49,14 @@ All three user groups can access the same application and utilize the integrated
 ## Usage
 
 1. Sign up as a teacher, parent, or student.
-2. Explore the integrated features:
+2. currently use mail id :admin@example.com and Password admin for all three platforms
+4. Explore the integrated features:
    - Provide and receive feedback
    - Access educational resources
    - Share ideas with the community
    - Manage attendance
    - Take tests
-3. Utilize the Virtual AI Tutor for additional academic support.
+5. Utilize the Virtual AI Tutor for additional academic support.
 
 ## Contributing
 

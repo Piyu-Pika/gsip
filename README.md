@@ -68,9 +68,6 @@ We welcome contributions to the GSIP Gyan Sangam Integrated Platform project. If
 4. Push your changes to your forked repository.
 5. Submit a pull request to the main repository.
 
-## License
-
-This project is licensed under the [MIT License](LICENSE).
 
 ## Contact
 

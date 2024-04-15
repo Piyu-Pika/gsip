@@ -123,11 +123,11 @@ class NotesPage extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text(noteData['title']),
+        title: Text(noteData['Title']),
       ),
       body: Padding(
         padding: const EdgeInsets.all(16.0),
-        child: Text(noteData['content']),
+        child: Text(noteData['Content']),
       ),
     );
   }

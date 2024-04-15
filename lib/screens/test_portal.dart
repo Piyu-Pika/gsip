@@ -130,7 +130,7 @@ class _TestScreenState extends State<TestScreen> {
                 color: Colors.blue,
                 child: Padding(
                   padding: EdgeInsets.all(8.0),
-                  child: Text('Save', style: TextStyle(color: Colors.white)),
+                  child: Text('Clear', style: TextStyle(color: Colors.white)),
                 ),
               ),
             ),

@@ -70,52 +70,52 @@ class _ResourcesState extends State<Resources> {
           setState(() {
             Navigator.push(context, MaterialPageRoute(builder: (context) =>   NotesPage(id: 1,),));
           });
-        }, child: const Text("notes1")),
+        }, child: const Text("Notes1")),
         ElevatedButton(onPressed: (){
           setState(() {
             Navigator.push(context, MaterialPageRoute(builder: (context) =>   NotesPage(id: 2,),));
           });
-        }, child: const Text("notes2")),
+        }, child: const Text("Notes2")),
         ElevatedButton(onPressed: (){
           setState(() {
             Navigator.push(context, MaterialPageRoute(builder: (context) =>   NotesPage(id: 3,),));
           });
-        }, child: const Text("notes3")),
+        }, child: const Text("Notes3")),
         ElevatedButton(onPressed: (){
           setState(() {
             Navigator.push(context, MaterialPageRoute(builder: (context) =>   NotesPage(id: 4,),));
           });
-        }, child: const Text("notes4")),
+        }, child: const Text("Notes4")),
         ElevatedButton(onPressed: (){
           setState(() {
             Navigator.push(context, MaterialPageRoute(builder: (context) =>   NotesPage(id: 5,),));
           });
-        }, child: const Text("notes5")),
+        }, child: const Text("Notes5")),
         ElevatedButton(onPressed: (){
           setState(() {
             Navigator.push(context, MaterialPageRoute(builder: (context) =>   NotesPage(id: 6,),));
           });
-        }, child: const Text("notes6")),
+        }, child: const Text("Notes6")),
         ElevatedButton(onPressed: (){
           setState(() {
             Navigator.push(context, MaterialPageRoute(builder: (context) =>  NotesPage(id: 7,),));
           });
-        }, child: const Text("notes7")),
+        }, child: const Text("Notes7")),
         ElevatedButton(onPressed: (){
           setState(() {
             Navigator.push(context, MaterialPageRoute(builder: (context) =>   NotesPage( id: 8,),));
           });
-        }, child: const Text("notes8")),
+        }, child: const Text("Notes8")),
         ElevatedButton(onPressed: (){
           setState(() {
             Navigator.push(context, MaterialPageRoute(builder: (context) =>   NotesPage(id: 9,),));
           });
-        }, child: const Text("notes9")),
+        }, child: const Text("Notes9")),
         ElevatedButton(onPressed: (){
           setState(() {
             Navigator.push(context, MaterialPageRoute(builder: (context) =>   NotesPage(id: 10,),));
           });
-        }, child: const Text("notes10")),
+        }, child: const Text("Notes10")),
       ],
       ),
     );

@@ -1,7 +1,7 @@
 
 import 'package:flutter/material.dart';
 import 'package:gsip/screens/ideascreean.dart';
-import 'package:gsip/screens/notes_screen.dart';
+import 'package:gsip/screens/notes_screenfire.dart';
 import 'package:gsip/screens/feedback.dart';
 
 

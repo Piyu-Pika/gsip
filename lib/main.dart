@@ -3,9 +3,14 @@ import 'package:gsip/screens/home_screen.dart';
 import 'package:gsip/screens/parents_portal.dart';
 import 'package:gsip/screens/teachers_portal.dart';
 import 'package:flutter_gemini/flutter_gemini.dart';
+import 'package:firebase_core/firebase_core.dart';
+import 'firebase_options.dart';
 
-
-void main() {
+Future main() async{
+  WidgetsFlutterBinding.ensureInitialized();
+  await Firebase.initializeApp(
+    options: DefaultFirebaseOptions.currentPlatform,
+  );
   Gemini.init(apiKey: 'YOUR_API_KEY');
   runApp(const MyApp());
 }

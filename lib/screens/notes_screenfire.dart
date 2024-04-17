@@ -1,5 +1,7 @@
-import 'dart:convert';
+import 'package:firebase_core/firebase_core.dart';
+import 'package:firebase_database/firebase_database.dart';
 import 'package:flutter/material.dart';
+
 
 class NotesPage extends StatefulWidget {
   final int id;
@@ -20,12 +22,15 @@ class _NotesPageState extends State<NotesPage> {
   }
 
   Future<void> _loadNote() async {
-    final jsonString = await DefaultAssetBundle.of(context).loadString('assets/data/notes.json');
-    final jsonData = json.decode(jsonString) as List<dynamic>;
-    final note = jsonData.firstWhere((item) => item['id'] == widget.id, orElse: () => null);
-    setState(() {
-      _note = note;
-    });
+    final databaseReference = FirebaseDatabase.instance.reference();
+    final snapshot = await databaseReference.child('notes').child(widget.id.toString()).get();
+    if (snapshot.exists) {
+      setState(() {
+        _note = snapshot.value as Map<String, dynamic>;
+      });
+    } else {
+      print('No data available.');
+    }
   }
 
   @override
@@ -34,7 +39,7 @@ class _NotesPageState extends State<NotesPage> {
       appBar: AppBar(
         title: const Text('Note'),
       ),
-      body:_note != null
+      body: _note != null
           ? Padding(
               padding: const EdgeInsets.all(16.0),
               child: Column(

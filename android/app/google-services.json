@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "887982154218",
+    "project_id": "gsip-86a59",
+    "storage_bucket": "gsip-86a59.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:887982154218:android:d39672dbf89b4963595293",
+        "android_client_info": {
+          "package_name": "com.example.gsip"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBUml0XvphWf2E07bY7C40OyzSy4DdiXJU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,6 +1,17 @@
 # GSIP Gyan Sangam Integrated Platform
 
 GSIP is a mobile application built using Flutter, an integrated platform for the ed-tech industry. The platform aims to bridge the gaps between teachers, students, and parents by providing a comprehensive solution for their diverse needs.
+## Screen Shorts
+![GSIP](https://github.com/Piyu-Pika/gsip/assets/162677885/edeeee6d-626c-4604-9a4a-f22c939ca022)
+![WhatsApp Image 2024-04-16 at 10 49 11_ba535a0b](https://github.com/Piyu-Pika/gsip/assets/162677885/c259059d-64dd-4ef5-b1d1-db4af7e4d646)
+![IMG-20240416-WA0008](https://github.com/Piyu-Pika/gsip/assets/162677885/4cda02a0-a632-4d1d-9063-ccc5f0a54f3f)
+![IMG-20240416-WA0006](https://github.com/Piyu-Pika/gsip/assets/162677885/25a9612b-a935-4db0-9fba-141095c8d7ad)
+![IMG-20240416-WA0007](https://github.com/Piyu-Pika/gsip/assets/162677885/b364a8e9-7353-4cdc-8d06-9f0139a508e8)
+![IMG-20240416-WA0005](https://github.com/Piyu-Pika/gsip/assets/162677885/889c0bd8-028c-49b4-8760-d511e6bd2cec)
+![IMG-20240416-WA0004](https://github.com/Piyu-Pika/gsip/assets/162677885/8095b8df-07b6-4006-9a34-b17638e88adc)
+
+
+
 
 ## Features
 

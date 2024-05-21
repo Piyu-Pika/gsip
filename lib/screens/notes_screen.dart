@@ -20,9 +20,11 @@ class _NotesPageState extends State<NotesPage> {
   }
 
   Future<void> _loadNote() async {
-    final jsonString = await DefaultAssetBundle.of(context).loadString('assets/data/notes.json');
+    final jsonString = await DefaultAssetBundle.of(context)
+        .loadString('assets/data/notes.json');
     final jsonData = json.decode(jsonString) as List<dynamic>;
-    final note = jsonData.firstWhere((item) => item['id'] == widget.id, orElse: () => null);
+    final note = jsonData.firstWhere((item) => item['id'] == widget.id,
+        orElse: () => null);
     setState(() {
       _note = note;
     });
@@ -34,7 +36,7 @@ class _NotesPageState extends State<NotesPage> {
       appBar: AppBar(
         title: const Text('Note'),
       ),
-      body:_note != null
+      body: _note != null
           ? Padding(
               padding: const EdgeInsets.all(16.0),
               child: Column(
@@ -42,12 +44,12 @@ class _NotesPageState extends State<NotesPage> {
                 children: [
                   Text(
                     _note!['title'],
-                    style: Theme.of(context).textTheme.headline5,
+                    style: Theme.of(context).textTheme.headlineSmall,
                   ),
                   const SizedBox(height: 16.0),
                   Text(
                     _note!['content'],
-                    style: Theme.of(context).textTheme.bodyText1,
+                    style: Theme.of(context).textTheme.bodyLarge,
                   ),
                 ],
               ),

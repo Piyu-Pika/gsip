@@ -47,12 +47,12 @@ class _NotesPageState extends State<NotesPage> {
                 children: [
                   Text(
                     _note!['title'],
-                    style: Theme.of(context).textTheme.headline5,
+                    style: Theme.of(context).textTheme.headlineSmall,
                   ),
                   const SizedBox(height: 16.0),
                   Text(
                     _note!['content'],
-                    style: Theme.of(context).textTheme.bodyText1,
+                    style: Theme.of(context).textTheme.bodyLarge,
                   ),
                 ],
               ),
